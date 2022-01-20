@@ -1,0 +1,55 @@
+
+h1 {
+	text-align: center;
+}
+.game {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
+	
+}
+button{
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border: 1px solid #28a745;
+	cursor: pointer;
+	background-color: #28a745;
+	color:white;
+	outline: none;
+	box-shadow: 0 2px 5px 1px rgb(64 60 67);
+}
+button:hover {
+	background-color: #218838;
+	outline: none;
+}
+#playground{
+	background-image: url("/images/grass.jpg");
+	width:29.7rem;
+	height:25rem;
+	box-shadow: 0 2px 5px 1px rgb(64 60 67);
+}
+
+.block{
+	width:23px;
+	height:23px; 
+	border: 0.1px solid #5A8B31;
+	float: left;
+
+}
+.B{
+	background-image: url("/images/box.png") !important;
+}
+.W{
+	width:23px;
+	height:23px; 
+	border: 0.1px solid #13101E;
+	background-image: url("/images/Obsidian-Block.png");
+}
+.P{
+	background-image: url("/images/player")!important;
+	
+}
+
+.G{
+	background-image: url("/images/ring");
+}
