@@ -1,12 +1,7 @@
-
-h1 {
-	text-align: center;
-}
 .game {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 5rem;
-	
+	margin-top: 16rem;
 }
 button{
 	border-top-right-radius: 6px;
